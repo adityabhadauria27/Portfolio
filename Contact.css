@@ -1,0 +1,31 @@
+.contact {
+    padding: 2em 0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form label, form input, form textarea, form button {
+    width: 80%;
+    margin: 0.5em 0;
+  }
+  
+  form input, form textarea {
+    padding: 0.5em;
+  }
+  
+  form button {
+    padding: 0.5em 2em;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #555;
+  }
+  
